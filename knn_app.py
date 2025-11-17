@@ -49,4 +49,3 @@ if st.button("Predict"):
         st.error("⚠️ Heart Disease Detected")
     else:
         st.success("✅ No Heart Disease Detected")
-
