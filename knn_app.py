@@ -6,7 +6,7 @@ st.title("Heart Disease Prediction")
 
 # Load model + scaler
 model = load("knn_model.joblib")
-scaler = load("knn_scaler.joblib")
+scaler = load("scaler.joblib")
 
 st.header("Enter Patient Health Values")
 
@@ -49,3 +49,4 @@ if st.button("Predict"):
         st.error("⚠️ Heart Disease Detected")
     else:
         st.success("✅ No Heart Disease Detected")
+
